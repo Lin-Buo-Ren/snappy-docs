@@ -107,4 +107,4 @@ Typical value: `/home/zyga/snap/hello-world/27`
 
 This environment variable is re-written by snapd so that it is consistent with the view of the filesystem presented to snap applications.
 
-The value is always: `/usr/sbin:/usr/bin:/sbin:/bin:/usr/games`
+The value is always: `$SNAP/usr/sbin:$SNAP/usr/bin:$SNAP/sbin:$SNAP/bin:$PATH`
